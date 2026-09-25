@@ -23,12 +23,13 @@ Entre las tareas realizadas se incluyen:
 * Identificación y eliminación de **registros duplicados**.
 * Detección y tratamiento de **valores nulos**.
 * Sustitución de valores nulos por **"No consta"** cuando correspondía.
-* Revisión y corrección de **columnas y valores inconsistentes**.
+* Revisión y corrección de **columnas y valores inconsistentes** (NaN = No consta).
 * Comprobación y ajuste de los tipos de datos.
 * Filtrado y selección de registros según determinados criterios.
 * Revisión de las categorías y valores únicos de las variables.
+* Gráfico de líneas para confirmar la ausencia de errores.
 
-Estas operaciones permiten disponer de un conjunto de datos más **limpio, coherente y homogéneo**, reduciendo posibles problemas durante las fases posteriores de análisis.
+Todos los códigos van seguido de comentarios explicando el porqué de dichos códigos. Estas operaciones permiten disponer de un conjunto de datos más **limpio, coherente y homogéneo**, reduciendo posibles problemas durante las fases posteriores de análisis.
 
 ### ✅ 3. Validación y exportación
 
@@ -40,5 +41,6 @@ Una vez validado, el conjunto de datos limpio queda **preparado para su posterio
 
 * 🐍 **Python**
 * 📊 **Pandas**
+* 📊 **Motplotlib**
 * ☁️ **Google Colab**
 * 📓 **Jupyter Notebook**
